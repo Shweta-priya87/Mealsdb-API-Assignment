@@ -1,9 +1,15 @@
-# Mealsdb-API-Assignment
-This assignment is based on a particular API wherein there are test assertions, successful calls have been made to the API , validations has been performed based on the assertions using the  mock data & a YAML configuration file has been created as well.
+# Mealsdb-API-Assignment.
 
-1). Clone the repository locally.
+a. This assignment calls the Mealdb API- https://www.themealdb.com/api.php
+b. There are test assertions to validate the following data
+  > Status code is 200OK
+  > Resposnse body is not empty
+  > Wether the Api is throwing an error or not if Garlic comes as an ingridient
+c It has a YAML configuration file which has both the mock APi link as well as the mockserver link as well
+-----------------------------------------------
+To Start
+- Clone the repo locally
+- Run npm i
 
-2).Run ->  npm i --save-dev supertest mocha chai  @babel/cli @babel/core @babel/node @babel/register @babel/preset-env : To install all the required frameworks & dependencies.
-
-3). Run Tests
- using 'npm test' command in the terminal of your ide which will be VSC ( Visual Studio Code)
+Run Tests
+- npm test
